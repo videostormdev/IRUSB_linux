@@ -1,0 +1,23 @@
+IRUSB and USB Motion linux application
+---------------------------------------------------------
+
+This code will help you control all your attached IRUSB and USB Motion devices.
+
+The make this code:
+
+make
+
+make install
+
+
+To run this code:
+
+sudo irusb    (will automatically disconnect from terminal and run in the background)
+
+
+This code will open port 9093 to allow full NetPlay IRUSB protocol support for all attached IRUSB and USB Motion devices.
+
+Please see the PDF protocol manual for details on the full protocol.
+
+
+Notes:  This app waits 1 min after start to connect to devices.  It will also autostart if device connections are interrupted.  If you plug in a new device, use the QRESTART command to restart the app and find all devices.
